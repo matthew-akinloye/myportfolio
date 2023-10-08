@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Matthew's gallery</title>
+    <meta
+      name="description"
+      content="Explore my portfolio showcasing captivating scroll-based layout switch animations and web design innovations."
+    />
+    <meta
+      name="keywords"
+      content="Matthew's portfolio, scroll-based animations, layout switches, web design, user experience, Matthew Akinloye"
+    />
+    <meta name="author" content="Matthew Akinloye" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/cch1nog.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+    <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+  </head>
+  <body class="loading">
+    <main>
+      <div class="frame">
+        <div class="frame__title">
+          <h1 class="frame__title-main">Matthew Akinloye</h1>
+          <a
+            aria-label="Back to the article"
+            class="frame__title-back"
+            href="https://instagram.com/dev.matthew.dev?igshid=YTQwZjQ0NmI0OA=="
+          >
+            <span class="oh__inner">Contact me</span>
+            <svg width="18px" height="18px" viewBox="0 0 24 24">
+              <path
+                vector-effect="non-scaling-stroke"
+                d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <a
+          class="frame__prev"
+          href="https://instagram.com/dev.matthew.dev?igshid=YTQwZjQ0NmI0OA=="
+          >My Instagram</a
+        >
+      </div>
+      <section class="project project--intro">
+        <span class="project__label project__label--name">Name</span>
+        <span class="project__name">Matthew Akinloye</span>
+        <span class="project__label project__label--date">Occupation</span>
+        <span class="project__date">Full stack Web/Mobile App dev</span>
+        <h2 class="project__title">
+          <span class="project__title-line">Project</span>
+          <span class="project__title-line">Gallery</span>
+        </h2>
+        <span class="project__label project__label--mission">Skills</span>
+        <div class="project__mission">
+          <p>
+            Well, if we were to describe my frontend skills as a dish, it would
+            be a delightful fusion cuisine! Picture a base layer of HTML, the
+            trusty foundation that's as essential as a good pair of socks.
+            Sprinkle in some CSS for that fancy garnish – because who doesn't
+            love a well-dressed webpage? And then, there's JavaScript and
+            TypeScript, my dynamic duo, always ready to jazz up the party with
+            their witty interactions. But wait, there's more! I've dabbled in
+            the exotic arts of Angular, a bit like becoming the Indiana Jones of
+            frontend development, navigating ancient temples of code. And for
+            that extra zing, a hint of React – like the elusive spice that only
+            the bravest dare to master. With a year of experience under my belt,
+            I'm like the Iron Chef of the frontend world, whipping up delicious
+            web experiences. And when it comes to mobile, I've got Ionic, the
+            secret sauce for creating apps that sizzle! So, if you're looking
+            for someone who can turn your frontend into a five-star feast of
+            interactivity and style, look no further. I'm your culinary coder,
+            ready to spice up the web, one pixel at a time – with a side of
+            laughter and adventure! 🍽️💻😄
+          </p>
+          <p>
+            Ah, the dark and mysterious realm of backend development, where code
+            slumbers in the shadows, waiting to be summoned! In my arsenal, I
+            wield Python like a sorcerer, casting spells with Flask, weaving
+            webs of logic and enchantment. PHP, the misunderstood antihero,
+            enters the scene, adding its own cryptic charm to the backend saga.
+            As for databases, I've danced with the demons of MySQL and
+            PostgreSQL, taming their data-beasts with cunning queries. But
+            beware, for in the darkest corners of the server, I've harnessed the
+            ancient powers of Redis – a mystical key-value store that can
+            resurrect your data in the blink of an eye. And let us not forget
+            the cloud-dwellers, Firebase and Firestore, lurking in the ethereal
+            planes of serverless architecture. They may appear innocent, but
+            they hold secrets and data in the cloud's nebulous embrace, awaiting
+            my command. So, if you seek a backend developer who can traverse the
+            abyss of data and conjure functionality from the shadows, I am your
+            digital necromancer. I'll make sure your applications rise from the
+            crypt with eerie efficiency and a wicked sense of humor! 💀💻😈
+          </p>
+        </div>
+      </section>
+      <div class="gallery-wrap">
+        <div class="gallery gallery--row" id="gallery-1">
+          <div
+            class="gallery__item gallery__item--s"
+            style="background-image: url(img/6.png)"
+          ></div>
+          <div
+            class="gallery__item gallery__item--m"
+            style="background-image: url(img/3.png)"
+          ></div>
+          <div
+            class="gallery__item gallery__item--l"
+            style="background-image: url(img/4.png)"
+          ></div>
+          <div
+            class="gallery__item gallery__item--xl gallery__item--center"
+            style="background-image: url(img/1.png)"
+          ></div>
+          <div
+            class="gallery__item gallery__item--l"
+            style="background-image: url(img/5.png)"
+          ></div>
+          <div
+            class="gallery__item gallery__item--m"
+            style="background-image: url(img/2.png)"
+          ></div>
+          <div
+            class="gallery__item gallery__item--s"
+            style="background-image: url(img/6.png)"
+          ></div>
+          <div class="caption">
+            Cloudforte is an AI logistics SaaS platform that helps businesses
+            optimize their supply chain operations using advanced artificial
+            intelligence. With features like semantic search, recommendations,
+            security solutions, personalization, analytics, and data management,
+            Cloudforte streamlines logistics processes. It offers low latency,
+            live data updates, and easy integration with other AI tools.
+            Cloudforte is a fully managed, scalable solution that simplifies
+            logistics, enhances decision-making, and boosts efficiency, making
+            it ideal for supply chain optimization and more.
+          </div>
+        </div>
+      </div>
+      <section class="project project--details project--left">
+        <span class="project__label project__label--default"
+          >Website full details</span
+        >
+        <p>
+          Cloudforte is a cutting-edge AI logistics SaaS platform that empowers
+          businesses to optimize their supply chain operations using advanced
+          artificial intelligence. With Cloudforte, users can harness the power
+          of AI for various logistics applications, such as semantic search,
+          recommendations, security solutions like anomaly and fraud detection,
+          personalization, analytics, and data management. The platform offers
+          ultra-low query latency, live index updates, and powerful vector
+          search capabilities to ensure a seamless and efficient user
+          experience. Cloudforte is fully managed, scalable, and integrates
+          seamlessly with other AI tools like Hugging Face and LangChain. It
+          provides a hassle-free solution for businesses to enhance their
+          logistics operations, streamline decision-making, and improve overall
+          efficiency. Whether you're looking to optimize your supply chain,
+          detect anomalies, or personalize recommendations, Cloudforte offers a
+          developer-friendly and secure solution to transform your logistics
+          processes. Go to <a href="https://babatee.netlify.app/">Cloudforte</a>
+        </p>
+      </section>
+      <div class="gallery-wrap gallery-wrap--large">
+        <div class="gallery gallery--grid gallery--breakout" id="gallery-2">
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/8.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/12.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/15.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/9.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/7.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/14.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/10.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/13.png)"
+            ></div>
+          </div>
+          <div class="gallery__item gallery__item-cut">
+            <div
+              class="gallery__item-inner"
+              style="background-image: url(img/11.png)"
+            ></div>
+          </div>
+          <div class="caption">
+            <p>
+              Crown74 is your premier Nigeria-based travel agency, offering a
+              gateway to unforgettable travel experiences. With over 12
+              successful years in the industry, they specialize in making your
+              journeys enjoyable and hassle-free. Explore vibrant cities like
+              New York, the natural beauty of Muscat, the cultural richness of
+              London, and more with an expertly curated travel packages.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="project project--details project--right">
+        <span class="project__label project__label--default"
+          >More insight on Crown74
+        </span>
+        <p>
+          Crown74 is a Nigeria-based travel agency website that offers a wide
+          range of expertly curated travel packages and visa services for
+          destinations worldwide. Their goal is to make international travel
+          accessible and affordable while ensuring a safe and hassle-free
+          experience for travelers. Whether you're looking to explore vibrant
+          cities, natural wonders, or cultural treasures, Crown74 provides
+          options for various travel purposes. Check out
+          <a href="https://crown74.org/">Crown74</a>
+        </p>
+      </section>
+      <div class="gallery-wrap">
+        <div class="gallery gallery--grid10" id="gallery-3">
+          <div
+            class="gallery__item pos-1"
+            style="background-image: url(img/16.png)"
+          ></div>
+          <div
+            class="gallery__item pos-2"
+            style="background-image: url(img/17.png)"
+          ></div>
+          <div
+            class="gallery__item pos-3"
+            style="background-image: url(img/18.png)"
+          ></div>
+          <div
+            class="gallery__item pos-4"
+            style="background-image: url(img/10.png)"
+          ></div>
+          <div
+            class="gallery__item pos-5"
+            style="background-image: url(img/20.png)"
+          ></div>
+          <div
+            class="gallery__item pos-6"
+            style="background-image: url(img/21.png)"
+          ></div>
+          <div
+            class="gallery__item pos-7"
+            style="background-image: url(img/22.png)"
+          ></div>
+          <div
+            class="gallery__item pos-8"
+            style="background-image: url(img/23.png)"
+          ></div>
+          <div
+            class="gallery__item pos-9"
+            style="background-image: url(img/24.png)"
+          ></div>
+          <div
+            class="gallery__item pos-10"
+            style="background-image: url(img/15.png)"
+          ></div>
+          <div
+            class="gallery__item pos-11"
+            style="background-image: url(img/6.png)"
+          ></div>
+          <div
+            class="gallery__item pos-12"
+            style="background-image: url(img/1.png)"
+          ></div>
+          <div
+            class="gallery__item pos-13"
+            style="background-image: url(img/8.png)"
+          ></div>
+          <div
+            class="gallery__item pos-14"
+            style="background-image: url(img/11.png)"
+          ></div>
+          <div
+            class="gallery__item pos-15"
+            style="background-image: url(img/19.png)"
+          ></div>
+          <div
+            class="gallery__item pos-16"
+            style="background-image: url(img/me.jpg)"
+          ></div>
+          <div class="caption">Is That All?</div>
+        </div>
+      </div>
+      <section class="project project--details">
+        <span class="project__label project__label--default"
+          >Who is Matthew ?</span
+        >
+        <p>
+          Hey there! I'm Matthew, your friendly neighborhood web and mobile app
+          developer with a penchant for continuous learning and improvement. As
+          a self-proclaimed coding enthusiast since my early days, I've always
+          found the digital world fascinating, especially when no one around me
+          was delving into it. Currently, I'm proudly donning my developer cape
+          at Octavia Security, where I'm part of the team responsible for
+          crafting the fantastic DNI security app. When I'm not ensuring the
+          safety of the digital realm, I moonlight as a tutor, sharing my coding
+          wisdom with those eager to embark on their own digital adventures.
+          Beyond the world of coding, I have a secret creative side – I dabble
+          in graphic design, adding a touch of aesthetic magic to my projects.
+          In my ever-expanding toolkit, you'll find HTML, CSS,
+          JavaScript/TypeScript, Python, and PHP. I'm not just a language
+          collector; I also wield frameworks like Angular and Flask to craft
+          seamless web and mobile experiences. So, if you're looking for a
+          developer who's not just passionate about code but also delivers it
+          with a side of wit, humor, and expressiveness, you've found your guy!
+          Let's create some digital magic together ❤️🚀.
+        </p>
+      </section>
+      <div class="gallery-wrap gallery-wrap--dense">
+        <div
+          class="gallery gallery--stack gallery--stack-inverse gallery--stack-dark"
+          id="gallery-4"
+        >
+          <div
+            class="gallery__item"
+            style="background-image: url(img/6-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/9-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/5-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/7-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/2-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/chat.jpeg)"
+          ></div>
+          <div class="caption">
+            <p>
+              DNI app is a mobile security app that focuses on using
+              authentication codes to allow admission of persons, delivery
+              agents, visitors, or a group of people into a building.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-wrap gallery-wrap--dense">
+        <div class="gallery gallery--stack gallery--stack-glass" id="gallery-5">
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med4.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med1.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med6.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med3.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med5.png)"
+          ></div>
+          <div class="caption">
+            <p>Medicall app shhh! can't talk about it 🤫</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-wrap gallery-wrap--dense">
+        <div
+          class="gallery gallery--stack gallery--stack-inverse gallery--stack-scale gallery--stack-dark"
+          id="gallery-6"
+        >
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp1.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp3.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp4.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp5.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp6.png)"
+          ></div>
+          <div class="caption">
+            <p>
+              GhostPay is my own startup. The purpose of the app is to make
+              Cryptocurrency transactions stress-free
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="project project--details project--right">
+        <span class="project__label project__label--default">Mobile Apps</span>
+        <p>
+          Though my journey in mobile app development might be relatively short,
+          I've been on a rocket-fueled trajectory. Armed with the dynamic duo of
+          Ionic (Angular) and the magical Capacitor, I've been crafting mobile
+          apps that seamlessly blend the web and native experiences. While I may
+          be a newcomer to the mobile app scene, my portfolio speaks volumes.
+          I've conjured up apps that are as diverse as they are impressive. From
+          sleek e-commerce solutions to engaging social platforms, I've dipped
+          my fingers into the digital cauldron, brewing up experiences that
+          users love. But what makes my approach truly unique is my passion for
+          bridging the gap between the web and native worlds. With Ionic and
+          Capacitor as my trusty wand and spellbook, I've transformed web apps
+          into native-friendly enchantments. The result? Apps that not only
+          function flawlessly but also feel right at home on users' devices. So,
+          while I may be a newcomer to the mobile app development arena, I'm far
+          from a novice. I'm the sorcerer's apprentice, ready to weave code into
+          captivating mobile experiences. With each project, I'm not just
+          building apps; I'm crafting digital adventures that users won't
+          forget.
+        </p>
+      </section>
+      <div class="gallery-wrap">
+        <div class="gallery gallery--gridtiny" id="gallery-7">
+          <div
+            class="gallery__item"
+            style="background-image: url(img/1.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/3.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/4.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/5.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/6.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/7.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/8.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/9.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/10.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/11.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/20.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/12.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/13.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/14.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/15.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/16.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/17.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/18.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/19.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/20.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/21.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/22.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/23.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/24.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp1.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp3.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp4.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp5.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp6.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp6.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp7.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/gp8.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/25.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/26.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/27.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/28.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/6.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/17.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/28.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/9.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/30.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/1.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/11.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/3.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/14.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/25.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/16.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/7.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/8.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/19.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/20.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/21.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/11.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/23.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/10.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/15.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/14.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/21.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/12.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/13.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/14.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/6-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/9-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/7-crop.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med1.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med2.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med3.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med4.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/med5.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/11.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/12.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/13.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/5.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/6.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/27.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/18.png)"
+          ></div>
+          <div class="caption">What is creativity?</div>
+        </div>
+      </div>
+      <section class="project project--details project--left">
+        <span class="project__label project__label--default"
+          >What is Creativity?</span
+        >
+        <p>
+          Creativity is the spark that ignites innovation and brings imagination
+          to life. It's the art of turning abstract ideas into tangible,
+          meaningful creations. To me, creativity is not just about artistic
+          expression; it's a way of thinking and problem-solving. As a web and
+          mobile app developer, my journey in the world of technology has shown
+          me that creativity isn't limited to the canvas or stage. It's a
+          crucial element in crafting intuitive user interfaces, designing
+          captivating user experiences, and finding innovative solutions to
+          complex problems. Creativity, in my realm, means looking beyond the
+          lines of code and frameworks. It's about finding unconventional paths
+          to create elegant and efficient solutions. Whether it's designing an
+          eye-catching app interface or devising an out-of-the-box feature,
+          creativity is the driving force that propels me forward. In essence,
+          creativity is the thread that weaves the tapestry of my work. It's the
+          imagination, innovation, and dedication I pour into every project.
+          It's the ability to see the potential for magic in every line of code
+          and to transform ideas into digital reality. So, when I'm asked what
+          creativity is, I answer: It's the lifeblood of my work, the essence of
+          my passion, and the secret ingredient that makes each project uniquely
+          mine.
+        </p>
+      </section>
+      <div class="gallery-wrap">
+        <div class="gallery gallery--bento" id="gallery-8">
+          <div
+            class="gallery__item"
+            style="background-image: url(img/CyberEssentials.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/I2CS__1_.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/nd.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/image.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/EndpointSecurity.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/EndpointSecurity.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/image.png)"
+          ></div>
+          <div
+            class="gallery__item"
+            style="background-image: url(img/CyberEssentials.png)"
+          ></div>
+          <div class="caption">Side skills 🤫</div>
+        </div>
+      </div>
+      <section class="project project--details project--right">
+        <span class="project__label project__label--default"
+          >Certifications in Cybersecurity</span
+        >
+        <p>
+          As a passionate tech enthusiast, I've embraced the world of
+          cybersecurity as a side endeavor. My journey includes a collection of
+          Cisco certifications that have allowed me to explore and understand
+          the fundamentals of this ever-evolving field: Endpoint Security: This
+          certification has equipped me with knowledge about safeguarding
+          network endpoints, which is essential for protecting digital assets.
+          Network Defense: I've gained insights into fortifying networks and
+          ensuring data integrity, a vital aspect of maintaining a secure
+          digital environment. Cyber Threat Management: My certification in
+          Cyber Threat Management has introduced me to the world of identifying,
+          analyzing, and mitigating digital threats. Cybersecurity Essentials:
+          This certification has provided a foundational understanding of
+          cybersecurity principles, allowing me to navigate the digital
+          landscape more confidently. Introduction to Cybersecurity: My journey
+          began with this introductory certification, where I learned the basics
+          of cybersecurity and its significance in the modern world. While I
+          don't consider myself an expert, these certifications represent my
+          curiosity and commitment to enhancing my knowledge in cybersecurity.
+          They reflect my willingness to explore new horizons and contribute to
+          the ever-growing need for digital security in today's interconnected
+          world.
+        </p>
+      </section>
+      <section class="project project--details project--left">
+        <span class="project__label project__label--default">My Socials</span>
+        <p>
+          You can reach out to me in various ways like :
+          <a
+            href="https://instagram.com/dev.matthew.dev?igshid=YTQwZjQ0NmI0OA=="
+            >Instagram</a
+          >, <a href="https://twitter.com/crxm_sxn">Twitter or "X"</a>.
+          <strong>The best way to reach me is on</strong>
+          <a href="wa.link/8irpxc">whatsapp</a>.
+        </p>
+      </section>
+      <div class="gallery-wrap">
+        <div class="gallery gallery--one" id="gallery-9">
+          <div
+            class="gallery__item"
+            style="background-image: url(img/me1.jpeg)"
+          ></div>
+          <div class="caption">Made with ❤️</div>
+        </div>
+      </div>
+      <section class="project project--details project--left">
+        <p style="color: rgba(255, 255, 255, 0.195)">
+          Thanks to @Codrops and Divi
+        </p>
+      </section>
+    </main>
+    <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/Flip.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/lenis.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
