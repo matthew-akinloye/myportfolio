@@ -940,5 +940,16 @@
     <script src="js/lenis.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script type="module" src="js/index.js"></script>
+    <script>
+      import { Cloudinary } from "@cloudinary/url-gen";
+
+        const cld = new Cloudinary({ cloud: { cloudName: 'dcpzjgcgd' } });
+
+
+        new CloudinaryImage("1.png")
+            .resize(scale().width(1000))
+            .delivery(quality(auto()))
+            .delivery(format(auto()));
+    </script>
   </body>
 </html>
